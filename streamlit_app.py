@@ -1,5 +1,5 @@
 import streamlit as st
-from scrape import scrape_website
+
 
 
 st.title("AI Web Scraper")
