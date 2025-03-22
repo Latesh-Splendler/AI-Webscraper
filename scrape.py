@@ -5,7 +5,7 @@ import time
 def scrape_website(website):
   print("Launching chrome browser...")
 
-  chrome_driver_path = "chromedriver.exe"
+  chrome_driver_path = "./chromedriver.exe"
   option = webdriver.ChromeOptions()
   driver = webdriver.Chrome(service=Service(chrome_driver_path), options=options)
 
