@@ -1,7 +1,6 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📦 AI WEBSCRAPER
+
+
 
 Description of the app ...
 
