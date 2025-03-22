@@ -11,7 +11,7 @@ def scrape_website(website):
 
   try:
     driver.get(website)
-    print("Website launched successfully")
+    print("Page loaded....")
     html = driver.page_source
     time.sleep(10)
 
