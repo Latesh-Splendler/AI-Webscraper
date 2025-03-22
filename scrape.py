@@ -7,7 +7,7 @@ def scrape_website(website):
 
   chrome_driver_path = "./chromedriver.exe"
   option = webdriver.ChromeOptions()
-  driver = webdriver.Chrome(service=Service(chrome_driver_path), options=options)
+  driver = webdriver.Chrome(service=Service(chrome_driver_path), options=option)
 
   try:
     driver.get(website)
